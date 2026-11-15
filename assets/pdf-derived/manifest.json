@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-15T08:13:38.663438+00:00",
+  "extractor": {
+    "pdf_library": "PyMuPDF/fitz",
+    "scope": "deduplicated local PDFs; English headword candidates only",
+    "stores_definitions_ipa_mnemonics_or_prose": false
+  },
+  "source_root": "D:\\光速\\光速英语12000词单词课+语法价值12w!一步到位 44G大合集",
+  "scan": {
+    "pdf_files": 32,
+    "unique_by_sha256": 8,
+    "duplicate_copies": 24
+  },
+  "totals": {
+    "headword_records": 18863,
+    "unique_headword_instances_across_sources": 18814,
+    "unique_normalized_headwords": 6511,
+    "new_vs_canonical_wordlists": 516,
+    "indexed_english_token_files": 8
+  },
+  "sources": [
+    {
+      "source_id": "stage2-mindmap",
+      "role": "structured_wordlist",
+      "filename": "04.光速单词（阶段二：4000）思维导图.pdf",
+      "sha256": "232da260db9682a904b8682579ed17325d47bd74c4712cb564ad912f080415d8",
+      "pages": 1,
+      "copies": 3,
+      "headword_records": 81,
+      "unique_headwords": 77,
+      "headwords_in_canonical_wordlists": 76,
+      "headwords_new_vs_canonical": 1,
+      "indexed_english_tokens": 145,
+      "definition_or_prose_stored": false
+    },
+    {
+      "source_id": "outline-6000",
+      "role": "structured_wordlist",
+      "filename": "《光速单词》1天搞定6000单词大纲.pdf",
+      "sha256": "07f4c6816f157dcc2391aa1a9b9f1d461c952b7645006170c76a25e8f06368d0",
+      "pages": 43,
+      "copies": 9,
+      "headword_records": 5246,
+      "unique_headwords": 5240,
+      "headwords_in_canonical_wordlists": 5134,
+      "headwords_new_vs_canonical": 106,
+      "indexed_english_tokens": 5415,
+      "definition_or_prose_stored": false
+    },
+    {
+      "source_id": "cet4-source",
+      "role": "structured_wordlist",
+      "filename": "大学四级英语考试考纲词汇（必备）.pdf",
+      "sha256": "b925df36295912e0798801b4f7786f931a3b07cc7c6ae3b0773140255ff770bd",
+      "pages": 113,
+      "copies": 5,
+      "headword_records": 4342,
+      "unique_headwords": 4334,
+      "headwords_in_canonical_wordlists": 3960,
+      "headwords_new_vs_canonical": 374,
+      "indexed_english_tokens": 6672,
+      "definition_or_prose_stored": false
+    },
+    {
+      "source_id": "kaoyan-5500-source",
+      "role": "structured_wordlist",
+      "filename": "考研5500词大纲（覆盖高考3500）B站：光速英语.pdf",
+      "sha256": "21ddf32a26aa8bd4907c88167965e8442aa4ebbfc9e30d6ffb682f4862ff892f",
+      "pages": 129,
+      "copies": 5,
+      "headword_records": 5352,
+      "unique_headwords": 5346,
+      "headwords_in_canonical_wordlists": 5242,
+      "headwords_new_vs_canonical": 104,
+      "indexed_english_tokens": 7965,
+      "definition_or_prose_stored": false
+    },
+    {
+      "source_id": "gaokao-3500-source",
+      "role": "structured_wordlist",
+      "filename": "高中英语考纲3500词汇(必背).pdf",
+      "sha256": "322b27a5829d8e728fa320e50065bab40afacac72a9d6fae83fbeb1b7d2cc850",
+      "pages": 123,
+      "copies": 5,
+      "headword_records": 3842,
+      "unique_headwords": 3817,
+      "headwords_in_canonical_wordlists": 3625,
+      "headwords_new_vs_canonical": 192,
+      "indexed_english_tokens": 4730,
+      "definition_or_prose_stored": false
+    },
+    {
+      "source_id": "method-declaration",
+      "role": "indexed_method_or_list",
+      "filename": "01.彻底根治单词难题——光速单词.pdf",
+      "sha256": "1c31ad444a27a0e0ba628509556f944c63ca93f9370b582f3a12c678ce8048b6",
+      "pages": 8,
+      "copies": 3,
+      "headword_records": 0,
+      "unique_headwords": 0,
+      "headwords_in_canonical_wordlists": 0,
+      "headwords_new_vs_canonical": 0,
+      "indexed_english_tokens": 12,
+      "definition_or_prose_stored": false
+    },
+    {
+      "source_id": "guided-course",
+      "role": "indexed_method_or_list",
+      "filename": "01.《光速单词》畅读导学课.pdf",
+      "sha256": "930fbbd224060a9d1bef9dc37345f1803542d9d1f19a77670700076c15681fee",
+      "pages": 27,
+      "copies": 1,
+      "headword_records": 0,
+      "unique_headwords": 0,
+      "headwords_in_canonical_wordlists": 0,
+      "headwords_new_vs_canonical": 0,
+      "indexed_english_tokens": 378,
+      "definition_or_prose_stored": false
+    },
+    {
+      "source_id": "grammar-summary",
+      "role": "indexed_method_or_list",
+      "filename": "04.英语语法资料（汇总）.pdf",
+      "sha256": "92cf677633563a22584a640c5efe8777bbeac6132b04d443c3203bb40131f916",
+      "pages": 16,
+      "copies": 1,
+      "headword_records": 0,
+      "unique_headwords": 0,
+      "headwords_in_canonical_wordlists": 0,
+      "headwords_new_vs_canonical": 0,
+      "indexed_english_tokens": 207,
+      "definition_or_prose_stored": false
+    }
+  ],
+  "files": {
+    "source_headwords": "headwords/{source_id}.txt",
+    "english_token_indexes": "tokens/{source_id}.txt",
+    "all_headwords": "all-headwords.txt",
+    "word_index": "word-index.tsv",
+    "missing_vs_canonical": "missing-from-canonical.tsv"
+  }
+}
